@@ -388,7 +388,7 @@ export default function Home() {
                         <motion.button
                           whileHover={{ scale: 1.03 }}
                           whileTap={{ scale: 0.98 }}
-                          className="px-3 py-1.5 bg-red-500 text-white text-xs rounded-md font-medium sm:ml-0 mx-auto sm:mx-0"
+                          className="px-3 py-1.5 bg-red-500 text-white text-xs rounded-md font-medium sm:ml-0 mx-auto sm:mx-0 pointer-events-auto"
                           onClick={() =>
                             navigator.clipboard.writeText(
                               t("tokenInfo.values.contractAddress")
