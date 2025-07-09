@@ -1,0 +1,31 @@
+{
+  "scrollPrompt": "滚动探索幸福",
+  "tagline": "为Wowoo生态系统提供动力的革命性代币",
+  "tokenInfo": {
+    "title": "Wowbit代币",
+    "network": "Optimism",
+    "fields": {
+      "tokenName": "代币名称",
+      "symbol": "符号",
+      "totalSupply": "总供应量",
+      "decimal": "小数位",
+      "contractAddress": "合约地址"
+    },
+    "values": {
+      "tokenName": "Wowbit",
+      "symbol": "WWB",
+      "totalSupply": "1,111,111,111",
+      "decimal": "18",
+      "contractAddress": "0x03cc5feF38896537c10Fcb30A53A1B12be101da6"
+    },
+    "copyButton": "复制"
+  },
+  "actions": {
+    "viewOnOptimismScan": "在OptimismScan上查看",
+    "whitepaper": "白皮书"
+  },
+  "altText": {
+    "logo": "WowooNet标志",
+    "wowbitLogo": "Wowbit标志"
+  }
+}

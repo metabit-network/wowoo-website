@@ -1,0 +1,31 @@
+{
+  "scrollPrompt": "행복을 탐험하려면 스크롤하세요",
+  "tagline": "Wowoo 생태계를 구동하는 혁신적인 토큰",
+  "tokenInfo": {
+    "title": "Wowbit 토큰",
+    "network": "Optimism",
+    "fields": {
+      "tokenName": "토큰명",
+      "symbol": "심볼",
+      "totalSupply": "총 공급량",
+      "decimal": "소수점",
+      "contractAddress": "컨트랙트 주소"
+    },
+    "values": {
+      "tokenName": "Wowbit",
+      "symbol": "WWB",
+      "totalSupply": "1,111,111,111",
+      "decimal": "18",
+      "contractAddress": "0x03cc5feF38896537c10Fcb30A53A1B12be101da6"
+    },
+    "copyButton": "복사"
+  },
+  "actions": {
+    "viewOnOptimismScan": "OptimismScan에서 보기",
+    "whitepaper": "백서"
+  },
+  "altText": {
+    "logo": "WowooNet 로고",
+    "wowbitLogo": "Wowbit 로고"
+  }
+}

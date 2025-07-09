@@ -1,0 +1,31 @@
+{
+  "scrollPrompt": "Scroll to explore hapiness",
+  "tagline": "The revolutionary token powering the Wowoo ecosystem",
+  "tokenInfo": {
+    "title": "Wowbit Token",
+    "network": "Optimism",
+    "fields": {
+      "tokenName": "Token Name",
+      "symbol": "Symbol",
+      "totalSupply": "Total Supply",
+      "decimal": "Decimal",
+      "contractAddress": "Contract Address"
+    },
+    "values": {
+      "tokenName": "Wowbit",
+      "symbol": "WWB",
+      "totalSupply": "1,111,111,111",
+      "decimal": "18",
+      "contractAddress": "0x03cc5feF38896537c10Fcb30A53A1B12be101da6"
+    },
+    "copyButton": "Copy"
+  },
+  "actions": {
+    "viewOnOptimismScan": "View on OptimismScan",
+    "whitepaper": "Whitepaper"
+  },
+  "altText": {
+    "logo": "WowooNet Logo",
+    "wowbitLogo": "Wowbit Logo"
+  }
+}

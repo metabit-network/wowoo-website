@@ -1,0 +1,31 @@
+{
+  "scrollPrompt": "幸せを探すためにスクロールしてください",
+  "tagline": "Wowooエコシステムを動かす革新的なトークン",
+  "tokenInfo": {
+    "title": "Wowbitトークン",
+    "network": "Optimism",
+    "fields": {
+      "tokenName": "トークン名",
+      "symbol": "シンボル",
+      "totalSupply": "総供給量",
+      "decimal": "小数点",
+      "contractAddress": "コントラクトアドレス"
+    },
+    "values": {
+      "tokenName": "Wowbit",
+      "symbol": "WWB",
+      "totalSupply": "1,111,111,111",
+      "decimal": "18",
+      "contractAddress": "0x03cc5feF38896537c10Fcb30A53A1B12be101da6"
+    },
+    "copyButton": "コピー"
+  },
+  "actions": {
+    "viewOnOptimismScan": "OptimismScanで表示",
+    "whitepaper": "ホワイトペーパー"
+  },
+  "altText": {
+    "logo": "WowooNetロゴ",
+    "wowbitLogo": "Wowbitロゴ"
+  }
+}
