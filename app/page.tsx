@@ -430,8 +430,8 @@ export default function Home() {
                   <motion.a
                     href={
                       currentLanguage === "ja"
-                        ? "/wowoo_jp.pdf"
-                        : "/wowoo_en.pdf"
+                        ? "/WOWOO_jp.pdf"
+                        : "/WOWOO_en.pdf"
                     }
                     target="_blank"
                     rel="noopener noreferrer"
