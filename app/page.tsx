@@ -388,12 +388,51 @@ export default function Home() {
                         <motion.button
                           whileHover={{ scale: 1.03 }}
                           whileTap={{ scale: 0.98 }}
-                          className="px-3 py-1.5 bg-red-500 text-white text-xs rounded-md font-medium sm:ml-0 mx-auto sm:mx-0 pointer-events-auto"
-                          onClick={() =>
-                            navigator.clipboard.writeText(
-                              t("tokenInfo.values.contractAddress")
-                            )
-                          }
+                          className="px-3 py-1.5 bg-red-500 text-white text-xs rounded-md font-medium sm:ml-0 mx-auto sm:mx-0 pointer-events-auto cursor-pointer"
+                          onClick={async () => {
+                            const contractAddress = t(
+                              "tokenInfo.values.contractAddress"
+                            );
+                            try {
+                              // Try modern clipboard API first
+                              if (
+                                navigator.clipboard &&
+                                window.isSecureContext
+                              ) {
+                                await navigator.clipboard.writeText(
+                                  contractAddress
+                                );
+                              } else {
+                                // Fallback for older browsers and non-secure contexts
+                                const textArea =
+                                  document.createElement("textarea");
+                                textArea.value = contractAddress;
+                                textArea.style.position = "fixed";
+                                textArea.style.left = "-999999px";
+                                textArea.style.top = "-999999px";
+                                document.body.appendChild(textArea);
+                                textArea.focus();
+                                textArea.select();
+                                document.execCommand("copy");
+                                document.body.removeChild(textArea);
+                              }
+                              // Visual feedback
+                              const button = event?.target as HTMLButtonElement;
+                              if (button) {
+                                const originalText = button.textContent;
+                                button.textContent = "Copied!";
+                                button.style.backgroundColor = "#10B981";
+                                setTimeout(() => {
+                                  button.textContent = originalText;
+                                  button.style.backgroundColor = "#EF4444";
+                                }, 1000);
+                              }
+                            } catch (err) {
+                              console.error("Failed to copy: ", err);
+                              // Fallback: show the address in an alert
+                              alert(`Contract Address: ${contractAddress}`);
+                            }
+                          }}
                         >
                           {t("tokenInfo.copyButton")}
                         </motion.button>
