@@ -1,5 +1,5 @@
 {
-  "scrollPrompt": "Scroll to explore hapiness",
+  "scrollPrompt": "Scroll to explore happiness",
   "tagline": "Join us on a journey to build an economy where goodwill is recorded and rewarded",
   "tokenInfo": {
     "title": "Wowbit Token",
@@ -22,7 +22,9 @@
   },
   "actions": {
     "viewOnOptimismScan": "View on OptimismScan",
-    "whitepaper": "Whitepaper"
+    "whitepaper": "Whitepaper",
+    "whitepaperEN": "Whitepaper (EN)",
+    "whitepaperJP": "Whitepaper (JP)"
   },
   "altText": {
     "logo": "WowooNet Logo",

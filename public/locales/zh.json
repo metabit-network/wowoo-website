@@ -22,7 +22,9 @@
   },
   "actions": {
     "viewOnOptimismScan": "在OptimismScan上查看",
-    "whitepaper": "白皮书"
+    "whitepaper": "白皮书",
+    "whitepaperEN": "白皮书 (英文)",
+    "whitepaperJP": "白皮书 (日文)"
   },
   "altText": {
     "logo": "WowooNet标志",

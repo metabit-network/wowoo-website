@@ -22,7 +22,9 @@
   },
   "actions": {
     "viewOnOptimismScan": "OptimismScan에서 보기",
-    "whitepaper": "백서"
+    "whitepaper": "백서",
+    "whitepaperEN": "백서 (영어)",
+    "whitepaperJP": "백서 (일본어)"
   },
   "altText": {
     "logo": "WowooNet 로고",

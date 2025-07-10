@@ -22,7 +22,9 @@
   },
   "actions": {
     "viewOnOptimismScan": "OptimismScanで表示",
-    "whitepaper": "ホワイトペーパー"
+    "whitepaper": "ホワイトペーパー",
+    "whitepaperEN": "ホワイトペーパー (英語)",
+    "whitepaperJP": "ホワイトペーパー (日本語)"
   },
   "altText": {
     "logo": "WowooNetロゴ",

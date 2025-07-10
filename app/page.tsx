@@ -428,11 +428,7 @@ export default function Home() {
                     <span>{t("actions.viewOnOptimismScan")}</span>
                   </motion.a>
                   <motion.a
-                    href={
-                      currentLanguage === "ja"
-                        ? "/WOWOO_JP.pdf"
-                        : "/WOWOO_EN.pdf"
-                    }
+                    href="/WOWOO_EN.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-6 py-3 bg-white text-red-500 border-2 border-red-500 rounded-full font-bold hover:bg-red-50 transition-colors shadow-lg hover:shadow-red-500/20 text-sm"
@@ -446,7 +442,24 @@ export default function Home() {
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 1.7 }}
                   >
-                    {t("actions.whitepaper")}
+                    {t("actions.whitepaperEN")}
+                  </motion.a>
+                  <motion.a
+                    href="/WOWOO_JP.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-6 py-3 bg-white text-red-500 border-2 border-red-500 rounded-full font-bold hover:bg-red-50 transition-colors shadow-lg hover:shadow-red-500/20 text-sm"
+                    whileHover={{
+                      scale: 1.05,
+                      boxShadow:
+                        "0 10px 15px -3px rgba(255,0,0,0.2),0 4px 6px -4px rgba(255,0,0,0.2)",
+                    }}
+                    whileTap={{ scale: 0.95 }}
+                    initial={{ y: 20, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ delay: 1.8 }}
+                  >
+                    {t("actions.whitepaperJP")}
                   </motion.a>
                 </motion.div>
 
