@@ -171,7 +171,7 @@ export default function Home() {
           >
             <Image
               src="/image.png"
-              alt=""
+              alt="Wowoo Official Logo"
               width={p.size}
               height={p.size}
               className="w-full h-full object-contain"
