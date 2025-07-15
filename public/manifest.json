@@ -1,0 +1,22 @@
+{
+  "name": "Wowoo 2.0",
+  "short_name": "Wowoo",
+  "description": "Wowoo 2.0 is the next-generation Optimism-powered token. Explore our tokenomics, roadmap, and whitepaper. Join the future of decentralized finance with Wowoo.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ef4444",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

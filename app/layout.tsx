@@ -12,7 +12,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Wowoo 2.0",
   description:
-    "Wowoo token powered by Optimism. Learn about our tokenomics, whitepaper, and roadmap.",
+    "Discover Wowoo Token powered by Optimism. Explore our tokenomics, roadmap, whitepaper, and how we're shaping the future of decentralized finance.",
   icons: {
     icon: "/favicon.png",
     shortcut: "/favicon.png",
@@ -32,6 +32,9 @@ export const metadata: Metadata = {
     "Optimism Network",
     "Whitepaper",
     "0x03cc5feF38896537c10Fcb30A53A1B12be101da6",
+    "Happiness",
+    "scroll",
+    "explore",
   ],
   authors: [{ name: "Wowoo Team" }],
   creator: "Wowoo",
