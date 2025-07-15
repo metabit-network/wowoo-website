@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Wowoo",
+  title: "Wowoo 2.0",
   description:
     "Wowoo token powered by Optimism. Learn about our tokenomics, whitepaper, and roadmap.",
   keywords: [
