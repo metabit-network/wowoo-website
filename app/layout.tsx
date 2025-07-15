@@ -14,9 +14,9 @@ export const metadata: Metadata = {
   description:
     "Wowoo token powered by Optimism. Learn about our tokenomics, whitepaper, and roadmap.",
   icons: {
-    icon: "/image.png",
-    shortcut: "/image.png",
-    apple: "/image.png",
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
   },
   keywords: [
     "Wowoo",
