@@ -13,13 +13,25 @@ export const metadata: Metadata = {
   title: "Wowoo 2.0",
   description:
     "Wowoo token powered by Optimism. Learn about our tokenomics, whitepaper, and roadmap.",
+  icons: {
+    icon: "/image.png",
+    shortcut: "/image.png",
+    apple: "/image.png",
+  },
   keywords: [
     "Wowoo",
     "token",
-    "Optimism",
-    "blockchain",
-    "cryptocurrency",
+    "OptimismScan",
+    "Wowbit Token",
+    "Wowbit",
     "WWB",
+    "WowooNet",
+    "Wowoo 2.0",
+    "Wowoo 2.0 Token",
+    "Optimism",
+    "Optimism Network",
+    "Whitepaper",
+    "0x03cc5feF38896537c10Fcb30A53A1B12be101da6",
   ],
   authors: [{ name: "Wowoo Team" }],
   creator: "Wowoo",
@@ -31,7 +43,7 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL("https://wowoonet.com"),
   alternates: {
-    canonical: "/",
+    canonical: "https://wowoonet.com",
   },
   openGraph: {
     type: "website",
@@ -48,6 +60,7 @@ export const metadata: Metadata = {
         alt: "Wowoo Token",
       },
     ],
+
     locale: "en_US",
   },
   twitter: {
@@ -68,11 +81,6 @@ export const metadata: Metadata = {
       "max-image-preview": "large",
       "max-snippet": -1,
     },
-  },
-  icons: {
-    icon: "/image.png",
-    shortcut: "/image.png",
-    apple: "/image.png",
   },
   viewport: {
     width: "device-width",
