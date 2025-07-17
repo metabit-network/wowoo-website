@@ -9,14 +9,19 @@ const inter = Inter({
   weight: ["400", "500", "600", "700", "800", "900"],
 });
 
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: "Wowoo 2.0",
+    description:
+      "Discover Wowoo Token powered by Optimism. Explore our tokenomics, roadmap, whitepaper, and how we're shaping the future of decentralized finance.",
+  };
+}
+
 export const metadata: Metadata = {
-  title: "Wowoo 2.0",
-  description:
-    "Discover Wowoo Token powered by Optimism. Explore our tokenomics, roadmap, whitepaper, and how we're shaping the future of decentralized finance.",
   icons: {
-    icon: "/favicon.png",
-    shortcut: "/favicon.png",
-    apple: "/favicon.png",
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
   keywords: [
     "Wowoo",
