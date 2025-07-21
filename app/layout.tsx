@@ -64,7 +64,7 @@ export async function generateMetadata(): Promise<Metadata> {
       siteName: "Wowoo",
       images: [
         {
-          url: "/image.png",
+          url: "/favicon.ico",
           width: 1200,
           height: 630,
           alt: "Wowoo Token",
