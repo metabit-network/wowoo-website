@@ -22,8 +22,8 @@ export async function generateMetadata(): Promise<Metadata> {
       "Discover Wowoo Token powered by Optimism. Explore our tokenomics, roadmap, whitepaper, and how we're shaping the future of decentralized finance.",
     icons: {
       icon: [
-        { url: "/favicon.ico", sizes: "image/x-icon" },
-        { url: "/image.png", type: "image/png" },
+        { url: "/favicon.ico", sizes: "any" },
+        { url: "/favicon.png", type: "image/png" },
       ],
       shortcut: "/favicon.ico",
       apple: "/favicon.ico",
